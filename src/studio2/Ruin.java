@@ -15,7 +15,7 @@ public class Ruin {
 		double winChance = in.nextDouble();
 		double ruinAmount = 0.00;
 		while (startAmount > ruinAmount)
-		{
+		
 		while (startAmount < winLimit)
 		{
 		double randomNumber = Math.random() * 100;
@@ -38,7 +38,6 @@ public class Ruin {
 				System.out.println("You lost all of your money. Don't gamble idiot.");
 				}
 			}
-		}
 		}
 	}
 }
